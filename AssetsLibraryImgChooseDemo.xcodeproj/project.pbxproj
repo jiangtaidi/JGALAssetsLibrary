@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080DB6961C336EE100F143BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 080DB6951C336EE100F143BD /* main.m */; };
+		080DB6991C336EE100F143BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 080DB6981C336EE100F143BD /* AppDelegate.m */; };
+		080DB69C1C336EE100F143BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080DB69B1C336EE100F143BD /* ViewController.m */; };
+		080DB69F1C336EE100F143BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080DB69D1C336EE100F143BD /* Main.storyboard */; };
+		080DB6A11C336EE100F143BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080DB6A01C336EE100F143BD /* Assets.xcassets */; };
+		080DB6A41C336EE100F143BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080DB6A21C336EE100F143BD /* LaunchScreen.storyboard */; };
+		080DB6AF1C336EE100F143BD /* AssetsLibraryImgChooseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 080DB6AE1C336EE100F143BD /* AssetsLibraryImgChooseDemoTests.m */; };
+		080DB6BA1C336EE100F143BD /* AssetsLibraryImgChooseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 080DB6B91C336EE100F143BD /* AssetsLibraryImgChooseDemoUITests.m */; };
+		080DB6C81C337E3400F143BD /* meijing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 080DB6C71C337E3400F143BD /* meijing.jpg */; };
+		080DB6CC1C33816800F143BD /* ALAssetsLibrary+addALAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 080DB6CB1C33816800F143BD /* ALAssetsLibrary+addALAsset.m */; };
+		080DB6D21C3391D900F143BD /* JGImageGoupPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080DB6D11C3391D900F143BD /* JGImageGoupPickerViewController.m */; };
+		080DB6D41C33A6B900F143BD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DB6D31C33A6B900F143BD /* 1.png */; };
+		080DB6D71C33A78700F143BD /* JGImgGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 080DB6D61C33A78700F143BD /* JGImgGroup.m */; };
+		080DB6DA1C33AC0500F143BD /* JGImageSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080DB6D91C33AC0500F143BD /* JGImageSelectViewController.m */; };
+		080DB6DD1C33ACA600F143BD /* UIViewController+ALAssetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 080DB6DC1C33ACA600F143BD /* UIViewController+ALAssetVC.m */; };
+		080DB6E21C33B6F800F143BD /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DB6E11C33B6F800F143BD /* check.png */; };
+		080DB6E41C33B71D00F143BD /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 080DB6E31C33B71D00F143BD /* checked.png */; };
+		080DB6E91C33B79000F143BD /* ClickedChapeChangeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 080DB6E81C33B79000F143BD /* ClickedChapeChangeBtn.m */; };
+		080DB6EC1C33C3CA00F143BD /* JGDisplayImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 080DB6EB1C33C3CA00F143BD /* JGDisplayImgView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		080DB6AB1C336EE100F143BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080DB6891C336EE100F143BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080DB6901C336EE100F143BD;
+			remoteInfo = AssetsLibraryImgChooseDemo;
+		};
+		080DB6B61C336EE100F143BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080DB6891C336EE100F143BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080DB6901C336EE100F143BD;
+			remoteInfo = AssetsLibraryImgChooseDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080DB6911C336EE100F143BD /* AssetsLibraryImgChooseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetsLibraryImgChooseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		080DB6951C336EE100F143BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		080DB6971C336EE100F143BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		080DB6981C336EE100F143BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		080DB69A1C336EE100F143BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		080DB69B1C336EE100F143BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		080DB69E1C336EE100F143BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		080DB6A01C336EE100F143BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		080DB6A31C336EE100F143BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		080DB6A51C336EE100F143BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080DB6AA1C336EE100F143BD /* AssetsLibraryImgChooseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssetsLibraryImgChooseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		080DB6AE1C336EE100F143BD /* AssetsLibraryImgChooseDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetsLibraryImgChooseDemoTests.m; sourceTree = "<group>"; };
+		080DB6B01C336EE100F143BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080DB6B51C336EE100F143BD /* AssetsLibraryImgChooseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssetsLibraryImgChooseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		080DB6B91C336EE100F143BD /* AssetsLibraryImgChooseDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetsLibraryImgChooseDemoUITests.m; sourceTree = "<group>"; };
+		080DB6BB1C336EE100F143BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080DB6C71C337E3400F143BD /* meijing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meijing.jpg; sourceTree = "<group>"; };
+		080DB6CA1C33816800F143BD /* ALAssetsLibrary+addALAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+addALAsset.h"; sourceTree = "<group>"; };
+		080DB6CB1C33816800F143BD /* ALAssetsLibrary+addALAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+addALAsset.m"; sourceTree = "<group>"; };
+		080DB6D01C3391D900F143BD /* JGImageGoupPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGImageGoupPickerViewController.h; sourceTree = "<group>"; };
+		080DB6D11C3391D900F143BD /* JGImageGoupPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGImageGoupPickerViewController.m; sourceTree = "<group>"; };
+		080DB6D31C33A6B900F143BD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		080DB6D51C33A78700F143BD /* JGImgGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGImgGroup.h; sourceTree = "<group>"; };
+		080DB6D61C33A78700F143BD /* JGImgGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGImgGroup.m; sourceTree = "<group>"; };
+		080DB6D81C33AC0500F143BD /* JGImageSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGImageSelectViewController.h; sourceTree = "<group>"; };
+		080DB6D91C33AC0500F143BD /* JGImageSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGImageSelectViewController.m; sourceTree = "<group>"; };
+		080DB6DB1C33ACA600F143BD /* UIViewController+ALAssetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ALAssetVC.h"; sourceTree = "<group>"; };
+		080DB6DC1C33ACA600F143BD /* UIViewController+ALAssetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ALAssetVC.m"; sourceTree = "<group>"; };
+		080DB6DE1C33AF4400F143BD /* JGImgChoose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGImgChoose.h; sourceTree = "<group>"; };
+		080DB6DF1C33B14A00F143BD /* JGImgSelectDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGImgSelectDelegate.h; sourceTree = "<group>"; };
+		080DB6E11C33B6F800F143BD /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		080DB6E31C33B71D00F143BD /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		080DB6E71C33B79000F143BD /* ClickedChapeChangeBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickedChapeChangeBtn.h; sourceTree = "<group>"; };
+		080DB6E81C33B79000F143BD /* ClickedChapeChangeBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickedChapeChangeBtn.m; sourceTree = "<group>"; };
+		080DB6EA1C33C3CA00F143BD /* JGDisplayImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGDisplayImgView.h; sourceTree = "<group>"; };
+		080DB6EB1C33C3CA00F143BD /* JGDisplayImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGDisplayImgView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080DB68E1C336EE100F143BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080DB6A71C336EE100F143BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080DB6B21C336EE100F143BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080DB6881C336EE100F143BD = {
+			isa = PBXGroup;
+			children = (
+				080DB6931C336EE100F143BD /* AssetsLibraryImgChooseDemo */,
+				080DB6AD1C336EE100F143BD /* AssetsLibraryImgChooseDemoTests */,
+				080DB6B81C336EE100F143BD /* AssetsLibraryImgChooseDemoUITests */,
+				080DB6921C336EE100F143BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		080DB6921C336EE100F143BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				080DB6911C336EE100F143BD /* AssetsLibraryImgChooseDemo.app */,
+				080DB6AA1C336EE100F143BD /* AssetsLibraryImgChooseDemoTests.xctest */,
+				080DB6B51C336EE100F143BD /* AssetsLibraryImgChooseDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		080DB6931C336EE100F143BD /* AssetsLibraryImgChooseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				080DB6CD1C338D0E00F143BD /* resource */,
+				080DB6C91C33813100F143BD /* AssetsLibraryTool */,
+				080DB6971C336EE100F143BD /* AppDelegate.h */,
+				080DB6981C336EE100F143BD /* AppDelegate.m */,
+				080DB69A1C336EE100F143BD /* ViewController.h */,
+				080DB69B1C336EE100F143BD /* ViewController.m */,
+				080DB69D1C336EE100F143BD /* Main.storyboard */,
+				080DB6A01C336EE100F143BD /* Assets.xcassets */,
+				080DB6A21C336EE100F143BD /* LaunchScreen.storyboard */,
+				080DB6A51C336EE100F143BD /* Info.plist */,
+				080DB6941C336EE100F143BD /* Supporting Files */,
+			);
+			path = AssetsLibraryImgChooseDemo;
+			sourceTree = "<group>";
+		};
+		080DB6941C336EE100F143BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				080DB6951C336EE100F143BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		080DB6AD1C336EE100F143BD /* AssetsLibraryImgChooseDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				080DB6AE1C336EE100F143BD /* AssetsLibraryImgChooseDemoTests.m */,
+				080DB6B01C336EE100F143BD /* Info.plist */,
+			);
+			path = AssetsLibraryImgChooseDemoTests;
+			sourceTree = "<group>";
+		};
+		080DB6B81C336EE100F143BD /* AssetsLibraryImgChooseDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				080DB6B91C336EE100F143BD /* AssetsLibraryImgChooseDemoUITests.m */,
+				080DB6BB1C336EE100F143BD /* Info.plist */,
+			);
+			path = AssetsLibraryImgChooseDemoUITests;
+			sourceTree = "<group>";
+		};
+		080DB6C91C33813100F143BD /* AssetsLibraryTool */ = {
+			isa = PBXGroup;
+			children = (
+				080DB6E61C33B74B00F143BD /* view */,
+				080DB6E01C33B6E900F143BD /* resource */,
+				080DB6DE1C33AF4400F143BD /* JGImgChoose.h */,
+				080DB6DF1C33B14A00F143BD /* JGImgSelectDelegate.h */,
+				080DB6DB1C33ACA600F143BD /* UIViewController+ALAssetVC.h */,
+				080DB6DC1C33ACA600F143BD /* UIViewController+ALAssetVC.m */,
+				080DB6CA1C33816800F143BD /* ALAssetsLibrary+addALAsset.h */,
+				080DB6CB1C33816800F143BD /* ALAssetsLibrary+addALAsset.m */,
+				080DB6D01C3391D900F143BD /* JGImageGoupPickerViewController.h */,
+				080DB6D11C3391D900F143BD /* JGImageGoupPickerViewController.m */,
+				080DB6D81C33AC0500F143BD /* JGImageSelectViewController.h */,
+				080DB6D91C33AC0500F143BD /* JGImageSelectViewController.m */,
+				080DB6D51C33A78700F143BD /* JGImgGroup.h */,
+				080DB6D61C33A78700F143BD /* JGImgGroup.m */,
+			);
+			path = AssetsLibraryTool;
+			sourceTree = "<group>";
+		};
+		080DB6CD1C338D0E00F143BD /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				080DB6C71C337E3400F143BD /* meijing.jpg */,
+				080DB6D31C33A6B900F143BD /* 1.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		080DB6E01C33B6E900F143BD /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				080DB6E31C33B71D00F143BD /* checked.png */,
+				080DB6E11C33B6F800F143BD /* check.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		080DB6E61C33B74B00F143BD /* view */ = {
+			isa = PBXGroup;
+			children = (
+				080DB6E71C33B79000F143BD /* ClickedChapeChangeBtn.h */,
+				080DB6E81C33B79000F143BD /* ClickedChapeChangeBtn.m */,
+				080DB6EA1C33C3CA00F143BD /* JGDisplayImgView.h */,
+				080DB6EB1C33C3CA00F143BD /* JGDisplayImgView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		080DB6901C336EE100F143BD /* AssetsLibraryImgChooseDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080DB6BE1C336EE100F143BD /* Build configuration list for PBXNativeTarget "AssetsLibraryImgChooseDemo" */;
+			buildPhases = (
+				080DB68D1C336EE100F143BD /* Sources */,
+				080DB68E1C336EE100F143BD /* Frameworks */,
+				080DB68F1C336EE100F143BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssetsLibraryImgChooseDemo;
+			productName = AssetsLibraryImgChooseDemo;
+			productReference = 080DB6911C336EE100F143BD /* AssetsLibraryImgChooseDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		080DB6A91C336EE100F143BD /* AssetsLibraryImgChooseDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080DB6C11C336EE100F143BD /* Build configuration list for PBXNativeTarget "AssetsLibraryImgChooseDemoTests" */;
+			buildPhases = (
+				080DB6A61C336EE100F143BD /* Sources */,
+				080DB6A71C336EE100F143BD /* Frameworks */,
+				080DB6A81C336EE100F143BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080DB6AC1C336EE100F143BD /* PBXTargetDependency */,
+			);
+			name = AssetsLibraryImgChooseDemoTests;
+			productName = AssetsLibraryImgChooseDemoTests;
+			productReference = 080DB6AA1C336EE100F143BD /* AssetsLibraryImgChooseDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		080DB6B41C336EE100F143BD /* AssetsLibraryImgChooseDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080DB6C41C336EE100F143BD /* Build configuration list for PBXNativeTarget "AssetsLibraryImgChooseDemoUITests" */;
+			buildPhases = (
+				080DB6B11C336EE100F143BD /* Sources */,
+				080DB6B21C336EE100F143BD /* Frameworks */,
+				080DB6B31C336EE100F143BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080DB6B71C336EE100F143BD /* PBXTargetDependency */,
+			);
+			name = AssetsLibraryImgChooseDemoUITests;
+			productName = AssetsLibraryImgChooseDemoUITests;
+			productReference = 080DB6B51C336EE100F143BD /* AssetsLibraryImgChooseDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		080DB6891C336EE100F143BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = jiangtd;
+				TargetAttributes = {
+					080DB6901C336EE100F143BD = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					080DB6A91C336EE100F143BD = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 080DB6901C336EE100F143BD;
+					};
+					080DB6B41C336EE100F143BD = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 080DB6901C336EE100F143BD;
+					};
+				};
+			};
+			buildConfigurationList = 080DB68C1C336EE100F143BD /* Build configuration list for PBXProject "AssetsLibraryImgChooseDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 080DB6881C336EE100F143BD;
+			productRefGroup = 080DB6921C336EE100F143BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				080DB6901C336EE100F143BD /* AssetsLibraryImgChooseDemo */,
+				080DB6A91C336EE100F143BD /* AssetsLibraryImgChooseDemoTests */,
+				080DB6B41C336EE100F143BD /* AssetsLibraryImgChooseDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080DB68F1C336EE100F143BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080DB6A41C336EE100F143BD /* LaunchScreen.storyboard in Resources */,
+				080DB6E21C33B6F800F143BD /* check.png in Resources */,
+				080DB6C81C337E3400F143BD /* meijing.jpg in Resources */,
+				080DB6D41C33A6B900F143BD /* 1.png in Resources */,
+				080DB6E41C33B71D00F143BD /* checked.png in Resources */,
+				080DB6A11C336EE100F143BD /* Assets.xcassets in Resources */,
+				080DB69F1C336EE100F143BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080DB6A81C336EE100F143BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080DB6B31C336EE100F143BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		080DB68D1C336EE100F143BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080DB6EC1C33C3CA00F143BD /* JGDisplayImgView.m in Sources */,
+				080DB6D71C33A78700F143BD /* JGImgGroup.m in Sources */,
+				080DB6E91C33B79000F143BD /* ClickedChapeChangeBtn.m in Sources */,
+				080DB69C1C336EE100F143BD /* ViewController.m in Sources */,
+				080DB6D21C3391D900F143BD /* JGImageGoupPickerViewController.m in Sources */,
+				080DB6CC1C33816800F143BD /* ALAssetsLibrary+addALAsset.m in Sources */,
+				080DB6DA1C33AC0500F143BD /* JGImageSelectViewController.m in Sources */,
+				080DB6DD1C33ACA600F143BD /* UIViewController+ALAssetVC.m in Sources */,
+				080DB6991C336EE100F143BD /* AppDelegate.m in Sources */,
+				080DB6961C336EE100F143BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080DB6A61C336EE100F143BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080DB6AF1C336EE100F143BD /* AssetsLibraryImgChooseDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080DB6B11C336EE100F143BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080DB6BA1C336EE100F143BD /* AssetsLibraryImgChooseDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		080DB6AC1C336EE100F143BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080DB6901C336EE100F143BD /* AssetsLibraryImgChooseDemo */;
+			targetProxy = 080DB6AB1C336EE100F143BD /* PBXContainerItemProxy */;
+		};
+		080DB6B71C336EE100F143BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080DB6901C336EE100F143BD /* AssetsLibraryImgChooseDemo */;
+			targetProxy = 080DB6B61C336EE100F143BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		080DB69D1C336EE100F143BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080DB69E1C336EE100F143BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		080DB6A21C336EE100F143BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080DB6A31C336EE100F143BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		080DB6BC1C336EE100F143BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		080DB6BD1C336EE100F143BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		080DB6BF1C336EE100F143BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AssetsLibraryImgChooseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = j.t.d.AssetsLibraryImgChooseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		080DB6C01C336EE100F143BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AssetsLibraryImgChooseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = j.t.d.AssetsLibraryImgChooseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		080DB6C21C336EE100F143BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AssetsLibraryImgChooseDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = j.t.d.AssetsLibraryImgChooseDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssetsLibraryImgChooseDemo.app/AssetsLibraryImgChooseDemo";
+			};
+			name = Debug;
+		};
+		080DB6C31C336EE100F143BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AssetsLibraryImgChooseDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = j.t.d.AssetsLibraryImgChooseDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssetsLibraryImgChooseDemo.app/AssetsLibraryImgChooseDemo";
+			};
+			name = Release;
+		};
+		080DB6C51C336EE100F143BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AssetsLibraryImgChooseDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = j.t.d.AssetsLibraryImgChooseDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AssetsLibraryImgChooseDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		080DB6C61C336EE100F143BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AssetsLibraryImgChooseDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = j.t.d.AssetsLibraryImgChooseDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AssetsLibraryImgChooseDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080DB68C1C336EE100F143BD /* Build configuration list for PBXProject "AssetsLibraryImgChooseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080DB6BC1C336EE100F143BD /* Debug */,
+				080DB6BD1C336EE100F143BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080DB6BE1C336EE100F143BD /* Build configuration list for PBXNativeTarget "AssetsLibraryImgChooseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080DB6BF1C336EE100F143BD /* Debug */,
+				080DB6C01C336EE100F143BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080DB6C11C336EE100F143BD /* Build configuration list for PBXNativeTarget "AssetsLibraryImgChooseDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080DB6C21C336EE100F143BD /* Debug */,
+				080DB6C31C336EE100F143BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080DB6C41C336EE100F143BD /* Build configuration list for PBXNativeTarget "AssetsLibraryImgChooseDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080DB6C51C336EE100F143BD /* Debug */,
+				080DB6C61C336EE100F143BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 080DB6891C336EE100F143BD /* Project object */;
+}
