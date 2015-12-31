@@ -24,6 +24,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationController.navigationBar.translucent = NO;
     self.view.backgroundColor = [UIColor whiteColor];
     [self setupAlAssetData];
 }
@@ -35,14 +36,20 @@
 
 -(void)setupAlAssetData
 {
-    if (self.imgGroup) {
-        [self.imgGroup.group enumerateAssetsUsingBlock:^(ALAsset *result, NSUInteger index, BOOL *stop) {
-            if (result) {
-                [self.alassetArr addObject:result];
-            }
-        }];
-    }
-    [self setupUI];
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        if (self.imgGroup) {
+            [self.imgGroup.group enumerateAssetsUsingBlock:^(ALAsset *result, NSUInteger index, BOOL *stop) {
+                if (result) {
+                    [self.alassetArr addObject:result];
+                }
+            }];
+        }
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self setupUI];
+        });
+        
+    });
+    
 }
 
 -(void)setupUI
@@ -74,7 +81,7 @@
         
     }
     
-    UIView *buttomView = [[UIView alloc] initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height - 45, [UIScreen mainScreen].bounds.size.width, 45)];
+    UIView *buttomView = [[UIView alloc] initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height - 45 - 64, [UIScreen mainScreen].bounds.size.width, 45)];
     buttomView.backgroundColor = [UIColor colorWithRed:244/255.0 green:244/255.0 blue:244/255.0 alpha:1];
     UIButton *selectBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     selectBtn.backgroundColor = [UIColor lightGrayColor];
